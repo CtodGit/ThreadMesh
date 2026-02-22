@@ -1,0 +1,8 @@
+# Force LF line endings for all text files — no CRLF conversion
+* text=auto eol=lf
+
+# Explicitly mark binary files so Git never tries to diff/convert them
+*.png binary
+*.jpg binary
+*.ico binary
+*.tmesh binary
