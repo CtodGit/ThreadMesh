@@ -1,6 +1,6 @@
 # ThreadMesh Task List
 
-*Last updated: 2026-02-22*
+*Last updated: 2026-02-22 (session 2)*
 
 ---
 
@@ -20,6 +20,8 @@
 ### PHASE 3 — Geometry Conformance System
 - [x] **T08** Node classification: Interior/Surface/Edge/Corner via gmsh entity dim (baked into T04) — COMPLETE 2026-02-22
 - [x] **T09** Surface normal vectors via gmsh OCCT parametric evaluation; STL: area-weighted face normals — COMPLETE 2026-02-22
+- [x] **T11** 3D mesh generation: gmsh Frontal-Delaunay + Netgen optimization pass; QThread dropped (gmsh signal restriction — runs synchronous with wait cursor) — COMPLETE 2026-02-22
+- [x] **T41** Tape measure tool: vtkCellPicker surface snap; amber spheres + cyan line + billboard distance label; click-3 clears — COMPLETE 2026-02-22
 - [ ] **T10** Deviation constraint enforcement: ε = (P_new - P_surface) / P_surface ≤ threshold; per-workbench defaults (Structural 1%, CFD 0.1%); project Newton moves into tangent plane when violated
 
 ### PHASE 4 — Mesh Generation
@@ -86,6 +88,8 @@
 - [x] **T05** STL import (meshio) + normals + VTK display — COMPLETE 2026-02-22
 - [x] **T08** Node classification (Corner/Edge/Surface/Interior) — COMPLETE 2026-02-22
 - [x] **T09** Surface normal assignment via OCCT parametric eval — COMPLETE 2026-02-22
+- [x] **T11** 3D mesh generation (gmsh + Netgen pass; synchronous main thread) — COMPLETE 2026-02-22
+- [x] **T41** Tape measure tool (vtkCellPicker snap, billboard label) — COMPLETE 2026-02-22
 
 ---
 
